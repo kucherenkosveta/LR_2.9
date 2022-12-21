@@ -7,4 +7,5 @@ def C(m, n):
     elif 0 <= m <= n:
         return C(m, n - 1) + C(m - 1, n - 1)
 
-print(C(int(input()), int(input())))
+if __name__ == '__main__':
+    print(C(int(input()), int(input())))
